@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap&subset=cyrillic"
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i&display=swap&subset=cyrillic"
         rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
@@ -18,6 +19,22 @@
         <div class="container">
             <nav class="main-navigation">
                 <p class="logo"><a href="#">Cakes</a></p>
+                <div class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="navigation-tablet">
+                    <ul class="navigation-list">
+                        <li><a href="#ourcakes">Наши торты</a></li>
+                        <li><a href="#individual-order">Индивидуальный заказ</a></li>
+                        <li><a href="#comment">Отзывы</a></li>
+                        <li><a href="#about-us">О нас</a></li>
+                        <li><a href="#how-to-order">Как заказать</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
                 <ul class="site-navigation">
                     <li><a href="#ourcakes">Наши торты</a></li>
                     <li><a href="#individual-order">Индивидуальный заказ</a></li>
@@ -174,7 +191,7 @@
                         <p class="name-individual-order"><span>01</span><br> Выберите начинку</p>
                         <div class="topping">
                             <p class="stuffing-image">
-                                <img src="./img/stuffing.jpg" alt="Фото начинки" width="344" height="390">
+                                <img src="./img/stuffing.jpg" alt="Фото начинки">
                             </p>
                             <div class="description-order">
                                 <h4>Шоколадный ганаш</h4>
@@ -229,14 +246,14 @@
                         </div>
                         <div class="checkbox">
                             <ul class="checkout">
-                                <li>
+                                <li id="decor-1">
                                     <p class="checkout-image">
                                         <img src="./img/berry-mix.jpg" alt="Ягодное ассорти">
                                     </p>
                                     <p class="checkout-head">Ягодное ассорти</p>
                                     <p class="checkout-prise">700 руб/кг</p>
                                 </li>
-                                <li>
+                                <li id="decor-2">
                                     <p class="checkout-image">
                                         <img src="./img/Marshmallow.jpg" alt="Маршмэллоу">
                                     </p>
@@ -257,7 +274,7 @@
                                     </div>
                                     <div class="size">
                                         <label for="choice-size">Размер</label>
-                                        <input id="choice-size" type="text" name="size" value="2 кг"> 
+                                        <input id="choice-size" type="text" name="size" value="2 кг">
                                         <div class="line line-two"></div>
                                     </div>
                                     <div class="formalization">
@@ -275,6 +292,8 @@
 
             </section>
             <section class="comment" id="comment">
+                <div class="flags-left"></div>
+                <div class="flags-right"></div>
                 <h2>Отзывы</h2>
                 <div class="commentbox">
                     <p class="comment-image">
@@ -300,7 +319,7 @@
                         <p class="caption">О кондитере</p>
                         <b>Кондитер – как призвание</b>
                         <p class="about-p">Павел — профессиональный повар в различных гастрономических областях, но
-                            однажды его сердце покорило кондитерское искусство. С ранних лет он увлекался утонченным
+                            однажды его сердце покорило кондитерское искусство.<br> С ранних лет он увлекался утонченным
                             мастерством и обратился к своим талантам как кондитер. </p>
                         <b>Принцип – натуральные ингредиенты</b>
                         <p class="about-p">Сегодня Павел радует изделиями не только близких, но и тех, кто предпочитает
@@ -356,7 +375,7 @@
                     <dt>Без искусственных добавок</dt>
                     <dd>Работаем с натуральными ингредиентами и свежими продуктами</dd>
                 </dl>
-                <dl>
+                <dl class=dl-before-tow>
                     <dt>Свежий торт в день торжества</dt>
                     <dd>Торты изготавливаются в течение суток до отправки</dd>
                 </dl>
@@ -405,10 +424,10 @@
                             </p>
                             <p>
                                 <label for="your-question" class=visually-hidden>Ваш вопрос</label>
-                                <input id="your-question" type="text" name="question" placeholder="Ваш вопрос">
+                                <textarea id="your-question" name="question" placeholder="Ваш вопрос"></textarea>
                             </p>
 
-                            <input class="button" type="submit" name="Отправить">
+                            <button class="button" type="submit">Отправить</button>
                         </form>
                     </div>
                     <div class="contacts-right">
@@ -467,10 +486,27 @@
                 </ul>
             </nav>
             <div class="hr"></div>
-            <p class="copyright">&copy; 2018 Cakes</p>
+            <div class="copyright-tablet">
+                <p class="copyright">&copy; 2018 Cakes</p>
+                <ul class="footer-social footer-social-tablet">
+                    <li>
+                        <a href="#">
+                            <span class="visually-hidden">Инстаграм</span>
+                            <img src="./img/instagram-footer-icon.png" alt="Инстаграм">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="visually-hidden">ВКонтакте</span>
+                            <img src="./img/vk-footer-icon.png" alt="ВКонтакте">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
-
+    <script src="./js/menu.js"></script>
+    <script src="./js/individual-order.js"></script>
 </body>
 
 </html>
