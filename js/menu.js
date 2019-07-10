@@ -1,4 +1,4 @@
-var menu = document.querySelector('.menu-icon'),
+let menu = document.querySelector('.menu-icon'),
     nav = document.querySelector('.navigation-tablet');
 
 menu.addEventListener('click', function (evt) {
