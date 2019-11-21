@@ -99,6 +99,7 @@ img {
     -ms-flex-align: end;
     align-items: flex-end;
 }
+
 .navigation-tablet {
     display: none;
 }
@@ -486,7 +487,7 @@ img {
     font-family: 'Playfair Display', "Times New Roman", serif;
     font-size: 27px;
     line-height: 30px;
-    font-weight: 700px;
+    font-weight: 700;
     color: #f50049;
 }
 
@@ -874,6 +875,7 @@ img {
     margin-bottom: 160px;
     position: relative;
 }
+
 .flags-left {
     position: absolute;
     top: -100px;
@@ -885,6 +887,7 @@ img {
     background-position: 0 0;
     background-repeat: no-repeat;
 }
+
 .flags-right {
     position: absolute;
     top: -100px;
@@ -896,6 +899,7 @@ img {
     background-position: 0 0;
     background-repeat: no-repeat;
 }
+
 .commentbox {
     margin-top: 50px;
     display: -webkit-box;
@@ -1341,7 +1345,7 @@ img {
 }
 
 .contacts h2 {
-    
+
     text-align: left;
 }
 
@@ -1389,13 +1393,14 @@ img {
     font-family: inherit;
     font-size: 14px;
 }
+
 .contacts-form textarea {
     background-color: inherit;
     border: none;
     font-family: inherit;
     font-size: 14px;
     width: 100%;
-    height: 16px;
+    height: 18px;
     resize: none;
     border-bottom: 1px solid rgba(129, 129, 129, 0.3);
 
@@ -1413,19 +1418,23 @@ img {
     opacity: 0.3;
 }
 
-.contacts-form input::-webkit-input-placeholder, .contacts-form textarea::-webkit-input-placeholder  {
+.contacts-form input::-webkit-input-placeholder,
+.contacts-form textarea::-webkit-input-placeholder {
     opacity: 0.3;
 }
 
-.contacts-form input:-ms-input-placeholder, .contacts-form textarea:-ms-input-placeholder  {
+.contacts-form input:-ms-input-placeholder,
+.contacts-form textarea:-ms-input-placeholder {
     opacity: 0.3;
 }
 
-.contacts-form input::-ms-input-placeholder, .contacts-form textarea::-ms-input-placeholder  {
+.contacts-form input::-ms-input-placeholder,
+.contacts-form textarea::-ms-input-placeholder {
     opacity: 0.3;
 }
 
-.contacts-form input::placeholder, .contacts-form textarea::placeholder  {
+.contacts-form input::placeholder,
+.contacts-form textarea::placeholder {
     opacity: 0.3;
 }
 
@@ -1516,6 +1525,7 @@ footer {
     display: -ms-flexbox;
     display: flex;
 }
+
 .footer-social-tablet {
     display: none;
 }
@@ -1542,722 +1552,4 @@ footer {
     line-height: 25px;
     opacity: 0.3;
     text-align: center;
-}
-
-@media screen and (max-width: 768px) {
-    body {
-        width: 768px;
-    }
-
-    .container {
-        width: 730px;
-    }
-
-    h2 {
-        font-size: 28px;
-    }
-
-    .main-header {
-        width: 100%;
-        background-color: #ffffff;
-        margin-top: 0;
-        padding-bottom: 20px;
-        margin-bottom: 100px;
-    }
-
-    .main-header .container {
-        width: 690px;
-    }
-
-    .main-navigation {
-        position: relative;
-    }
-
-    .main-navigation .site-navigation {
-        display: none;
-    }
-    .nav-show {
-        display: block;
-    }
-    .navigation-tablet {
-        
-        position: absolute;
-        left: -40px;
-        top: 80px;
-        z-index: 100;
-    }
-    .navigation-tablet .navigation-list {
-        margin: 0;
-        padding: 0;
-    }
-    .navigation-tablet li {
-        list-style: none;
-        text-align: center;
-        width: 320px;
-        background-color: #e7e7e7;
-        padding-top: 14px;
-        padding-bottom: 12px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    }
-    .navigation-tablet li:hover, .navigation-tablet li:focus {
-        -webkit-box-shadow: 1px 5px 8px rgba(223, 223, 223, 0.7);
-                box-shadow: 1px 5px 8px rgba(223, 223, 223, 0.7);
-    }
-    .navigation-tablet a {
-        
-        font-size: 12px;
-        text-transform: uppercase;
-        
-    }
-
-    .menu-icon {
-        display: block;
-        position: absolute;
-        top: 30px;
-        left: 130px;
-    }
-
-    .castomcake-head {
-        width: 270px;
-        font-size: 60px;
-        line-height: 55px;
-        padding-left: 20px;
-    }
-
-    .handwork {
-        font-size: 36px;
-        line-height: 78px;
-        padding-left: 20px;
-        margin-bottom: 50px;
-    }
-
-    .background-cake {
-        width: 425px;
-        height: 548px;
-        background-size: cover;
-        top: -80px;
-        right: -19px;
-    }
-
-    .customcake .button {
-        margin-left: 20px;
-        margin-bottom: 150px;
-    }
-
-    .fantom-berry-1 {
-        width: 72px;
-        height: 72px;
-        background-size: cover;
-        top: -70px;
-        left: 300px;
-    }
-
-    .fantom-berry-2 {
-        width: 40px;
-        height: 40px;
-        background-size: cover;
-        top: 150px;
-        left: 275px;
-    }
-
-    .fantom-berry-3 {
-        width: 99px;
-        height: 71px;
-        background-size: cover;
-        top: 300px;
-        left: 250px
-    }
-
-    .customcake-list {
-        margin-left: 20px;
-        margin-bottom: 150px;
-    }
-
-    .ourcakes-head {
-        margin-bottom: 30px;
-    }
-
-    .ourcake-list svg {
-        display: none;
-    }
-
-    .big-our-cake {
-        width: 420px;
-        height: 390px;
-    }
-
-    .small-ourcake .ourcake-item {
-        width: 290px;
-        height: 185px;
-    }
-
-    .ourcake-item h3 {
-        padding-top: 20px;
-        padding-left: 25px;
-        font-size: 14px;
-    }
-
-    .many-species {
-        padding-left: 25px;
-        padding-top: 0;
-        font-size: 12px;
-    }
-
-    .watch {
-        bottom: 20px;
-        right: 0;
-    }
-
-    .watch p {
-        font-size: 12px;
-
-    }
-
-    .ourcakes {
-        margin-bottom: 14px;
-    }
-
-    .ourcake-image {
-        -webkit-box-shadow: 0px 10px 13px rgba(163, 6, 60, 0.12);
-        box-shadow: 0px 10px 13px rgba(163, 6, 60, 0.12);
-    }
-
-    .caption {
-        font-size: 26px;
-    }
-
-    .name-individual-order {
-        margin-top: 40px;
-        margin-left: 40px;
-        font-size: 18px;
-        line-height: 18px;
-    }
-
-    .name-individual-order span {
-        font-size: 36px;
-        line-height: 45px;
-    }
-
-    .stuffing-image {
-        width: 210px;
-        height: 240px;
-        margin-left: 0;
-    }
-
-    .description-order {
-        width: 220px;
-        margin-top: 10px;
-        margin-left: 25px;
-        margin-right: 0;
-    }
-
-    .description-order h4 {
-    font-size: 18px;
-    }
-
-    .description-order p {
-        width: 190px;
-        font-size: 14px;
-        line-height: 16px;
-        margin-bottom: 15px;
-    }
-
-    .description-order .price-order {
-        font-size: 20px;
-        margin-bottom: 30px;
-    }
-    .topping {
-        margin-top: 55px;
-        margin-bottom: 55px;
-    }
-    .description-order .button {
-        width: 135px;
-        height: 43px;
-    }
-    .topping::before {
-        top: 110px;
-        left: -70px;
-    }
-    .topping::after {
-        top: 110px;
-    }
-    .size-cake {
-        width: 100%;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-    }
-    .size-order-item {
-        height: auto;
-    }
-    .size-description {
-        margin-bottom: 40px;
-    }
-    .size-individual-order {
-        margin-bottom: 0;
-    }
-    .circle-1 {
-        width: 77px;
-        height: 77px;
-
-    }
-    .circle-1 p {
-        font-size: 12px;
-        line-height: 55px;
-    }
-    .size-description {
-        margin-top: 20px;
-        font-size: 12px;
-        line-height: 20px;
-    }
-    .circle-2 {
-        width: 107px;
-        height: 107px;
-    }
-    .circle-2 p {
-        font-size: 12px;
-        line-height: 85px;
-    }
-    .size-description-two {
-        margin-left: 5px;
-    }
-    .circle-3 {
-        width: 120px;
-        height: 120px;
-    }
-    .circle-4 {
-        width: 84px;
-        height: 84px;
-        margin: 14px auto;
-    }
-    .circle-4 p {
-        font-size: 12px;
-        line-height: 60px;
-    }
-    .circle-5 {
-        width: 140px;
-        height: 140px;
-    }
-    .circle-6 {
-        width: 98px;
-        height: 98px;
-        margin: 17px auto;
-    }
-    .circle-7 {
-        width: 67px;
-        height: 67px;
-        margin: 12px auto;
-    }
-    .circle-7 p {
-        font-size: 12px;
-        line-height: 45px;
-    }
-    .size-cake li {
-        margin-left: 40px;
-    }
-    .decor-cake {
-        width: 119px;
-        height: 157px;
-        background-size: cover;
-    }
-    .checkout {
-        width: 480px;
-    }
-    .checkout li {
-        width: 236px;
-        height: 368px;
-    }
-    .checkbox {
-        margin-left: 0;
-    }
-    .checkbox::before {
-        top: 190px;
-        left: -30px;
-    }
-    .checkbox::after {
-        top: 190px;
-        right: 0;
-    }
-    .counter {
-        font-size: 12px;
-    }
-    .checkbox .counter {
-        margin-left: 30px;
-    }
-    .checkout-image {
-        -webkit-box-shadow: 0px 7px 13px rgba(0, 0, 0, 0.05);
-        box-shadow: 0px 7px 13px rgba(0, 0, 0, 0.05);
-    }
-    .checkout-head {
-        margin-top: 255px;
-        font-size: 14px;
-        line-height: 18px;
-    }
-    .checkout-prise {
-        font-size: 14px;
-        line-height: 18px;
-    }
-    .choice {
-        width: 100%;
-    }
-    .choice h5 {
-        margin-top: 0;
-        font-size: 18px;
-        line-height: 40px;
-    }
-    .filling {
-        width: 160px;
-    }
-    .choice-box label {
-        width: 160px;
-        font-size: 18px; 
-        
-    }
-    .line {
-        display: none;
-    }
-    .choice-box input {
-        font-size: 12px;
-        border: 1px solid #818181;
-        border-radius: 15px;
-        width: 160px;
-        height: 30px;
-        padding: 0;
-        text-align: center;
-    }
-    .choice-box .size {
-        padding: 0 20px 0 20px;
-        width: 74px;
-    }
-    .choice-box .size input {
-        width: 74px;
-        
-    }
-    .formalization {
-        width: 160px;
-    }
-    .choice .button {
-        width: 160px;
-        height: 43px;
-        line-height: 43px;
-    }
-    .individual-order {
-        margin-bottom: 40px;
-    }
-    .flags-left {
-        width: 315px;
-        height: 90px;
-        background-size: contain;
-        top: -40px;
-        left: -19px;
-    }
-    .flags-right {
-        width: 315px;
-        height: 90px;
-        background-size: contain;
-        top: -40px;
-        right: -19px;
-    }
-    .comment-desc {
-        width: 253px;
-    }
-    .comment-image {
-        margin-top: 25px;
-    }
-    .comment-image img {
-        width: 107px;
-        height: 107px;
-    }
-    .comment-desc b {
-        font-size: 16px;
-        line-height: 16px;
-    }
-    .comment-desc span {
-        font-size: 14px;
-        line-height: 14px;
-    }
-    .comment-desc p, .comment-expand {
-        font-size: 14px;
-        line-height: 16px;
-    }
-    .commentbox::before {
-        top: 60px;
-        left: 85px;
-    }
-    .commentbox::after {
-        top: 60px;
-        right: 85px;
-    }
-    .commentbox .counter {
-        margin: 0; 
-    }
-    .comment {
-        margin-bottom: 100px;
-    }
-    .about-info {
-        width: 330px;
-    }
-    .about-info b {
-        font-size: 15px;
-    }
-    .about-p {
-        font-size: 14px;
-        line-height: 16px; 
-    }
-    .about-image {
-        width: 310px;
-        height: 310px;
-    }
-    .aboutbox {
-        margin-bottom: 30px;
-    }
-    .quotes-illustration {
-        width: 35px;
-        height: 22px;
-        background-size: cover;
-    }
-    .quote {
-        width: 380px;
-        margin-bottom: 20px;
-        font-family: 'Playfair Display', "Times New Roman", serif;
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: 700;
-        font-style: italic;
-    }
-    .quote-image {
-        width: 82px;
-        height: 40px;
-        margin-bottom: 60px;
-    }
-    .advantages h2 {
-        margin-bottom: 0;
-        line-height: 30px;
-    }
-    .berry-photo {
-        width: 272px;
-        height: 288px;
-        background-size: cover;
-        left: -19px;
-        top: 60px;
-    }
-    .fantom-1 {
-        width: 33px;
-        height: 30px;
-        left: -19px;
-        top: 60px;
-        background-size: cover;
-    }
-    .fantom-2 {
-        width: 56px;
-        height: 81px;
-        left: 37px;
-        top: 0;
-        background-size: cover;
-    }
-    .fantom-3 {
-        width: 28px;
-        height: 26px;
-        left: 151px;
-        top: 15px;
-        background-size: cover;
-    }
-    .fantom-4 {
-        width: 92px;
-        height: 73px;
-        left: 196px;
-        top: 310px;
-        background-size: cover;
-    }
-    .advantages .caption {
-        margin-bottom: 60px;
-    }
-    .advantages dl {
-        margin-left: 435px;
-        width: 266px;
-    }
-    .advantages dt {
-        font-size: 15px;
-        line-height: 20px;
-    }
-    .advantages dd {
-        font-size: 15px;
-        line-height: 18px;
-    }
-    .dl-before::before {
-        width: 48px;
-        height: 48px;
-        background-size: cover;
-        top: 5px;
-    }
-    .dl-before-tow::before {
-        content: '';
-
-        position: absolute;
-        top: 5px;
-        left: -85px;
-        width: 63px;
-        height: 38px;
-        background-image: url('../img/fresh-cake.png');
-        background-position: 0 0;
-        background-repeat: no-repeat;
-
-    }
-    
-    .advantages .customer {
-        margin-top: 200px;
-        margin-bottom: 0;
-    }
-    .advantages .customer-caption{
-        margin-bottom: 0;
-    }
-    .customer-p {
-        font-size: 14px;
-        line-height: 18px;
-        width: 330px;
-    }
-    .cake-photo {
-        width: 324px;
-        height: 317px;
-        background-size: cover;
-        top: 345px;
-        right: 0;
-    }
-    .plate {
-        width: 345px;
-        height: 345px;
-        background-size: cover;
-        top: 332px;
-        right: -5px;
-    }
-    .decor-cake-photo {
-        width: 430px;
-        height: 420px;
-        background-size: cover;
-        top: 285px;
-        right: -25px;
-    }
-    .advantages {
-        margin-bottom: 130px;
-    }
-    .how-to-order {
-        height: 420px;
-        background-size: 868px 550px;
-        background-position: -100px 0;
-        background-repeat: no-repeat;
-    }
-    .order-head {
-        padding-top: 50px;
-        margin-left: 375px;
-        margin-bottom: 0;
-        font-size: 28px;
-    }
-    .how-to-order ol {
-        margin-left: 390px;
-        margin-top: 0;
-    }
-    .how-to-order h6 {
-        font-size: 15px;
-        margin-top: 20px;
-    }
-    .how-to-order p {
-        font-size: 14px;
-        line-height: 16px;
-        width: 300px;
-        margin-bottom: 20px;
-    }
-    .how-to-order .one-p {
-        width: 250px;
-    }
-    .how-to-order .order-one-li::before, 
-    .how-to-order .order-two-li::before, 
-    .how-to-order .order-three-li::before   {
-        font-size: 36px;
-        left: 20px
-    }
-    .contacts {
-        margin-top: 40px;
-        padding-bottom: 150px;
-    }
-    .contacts .caption {
-        margin-top: 0;
-    }
-    .contacts-left p {
-        margin-top: 10px;
-        font-size: 14px;
-        line-height: 16px;
-    }
-    .contacts-form input {
-        background-color: #ffffff;
-        padding: 20px 5px 20px 10px;
-        border-bottom: none;
-    }
-    .contacts-form textarea {
-        background-color: #ffffff;
-        height: 120px;
-        padding: 20px 5px 20px 10px;
-        border-bottom: none;
-    }
-    .contacts-left p { 
-        margin-bottom: 10px;
-    }
-    .contacts-right {
-        font-size: 14px;
-        line-height: 16px;
-    }
-    .contacts-right p {
-        margin-bottom: 15px;
-    }
-    .contacts-form .button {
-        margin-top: 20px;
-    }
-    .background-contacts {
-        width: 510px;
-        height: 400px;
-        right: -19px;
-        z-index: -1;
-    }
-    footer {
-        background-color: #898989;
-    }
-    .footer-navigation {
-        width: 100%;
-    }
-    .footer-navigation .logo a {
-        color: #ffffff;
-        font-size: 18px;
-    }
-    .footer-navigation .site-navigation {
-        -ms-flex-preferred-size: 85%;
-            flex-basis: 85%; 
-    }
-    .footer-navigation .site-navigation a {
-        font-size: 12px;
-        color: #ffffff;
-    }
-    .footer-social {
-        display: none;
-    }
-    .footer-social-tablet {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
-    .hr {
-        width: 640px;
-        margin: 40px auto 10px;;
-        border-top: 1px solid rgba(168, 163, 163, 0.7);
-    }
-    .copyright {
-        margin-top: 0;
-        color: rgba(255, 255, 255, 0.8);
-    }
-    .copyright-tablet {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-    }
 }
